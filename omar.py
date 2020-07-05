@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import tensorflow_hub as hub
 from flask import Flask, request,make_response
 from flask_restful  import Resource, Api

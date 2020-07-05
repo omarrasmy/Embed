@@ -6,11 +6,11 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-tensorflow = "==1.13.1"
-tensorflow-hub = "==0.7.0"
 flask = "*"
 flask-restful = "*"
 numpy = "*"
+tensorflow = "*"
+tensorflow-hub = "*"
 
 [requires]
 python_version = "3.6"
