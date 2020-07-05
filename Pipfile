@@ -10,7 +10,7 @@ flask = "*"
 flask-restful = "*"
 numpy = "*"
 tensorflow-hub = "*"
-tensorflow = "==2.0.0"
+tensorflow = "==2.0.1"
 
 [requires]
 python_version = "3.6"
