@@ -21,6 +21,7 @@ class GenerateEmbed(Resource):
         try:self.embed_fn = self.embed_useT(os.getcwd()+'/module_useT')  # loading the model #------> rasmy
         except:
             print("error",sys.exc_info())
+            print(os.listdir(os.getcwd()))
     def post(self):
         Body = request.get_json()
         if "Text" in Body:
